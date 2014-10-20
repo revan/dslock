@@ -1,5 +1,5 @@
-from PIL import Image, ImageFont, ImageDraw
-import os
+#Pastes "YOU DIED" image over image passed as argument, overwrites.
+from PIL import Image
 import sys
 
 if len(sys.argv) == 1:
